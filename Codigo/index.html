@@ -5,11 +5,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <title>Home | Di Pane</title>
 </head>
 
 <body>
-
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="nav-center">
+            <!-- links -->
+            <div>
+                <button class="toggle-nav">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html" class="nav-link">
+                            home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="products.html" class="nav-link">
+                            productos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="nav-link">
+                            acerca
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- logo -->
+            <img src="../Imagenes/Di_pane-removebg-preview.png" class="nav-logo" alt="logo" />
+            <!-- cart icon -->
+            <div class="toggle-container">
+                <button class="toggle-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                <span class="cart-item-count">1</span>
+            </div>
+        </div>
+    </nav>
+    <!-- hero -->
+    <section class="hero">
+        <div class="hero-container">
+            <h1 class="text-slanted">
+                rest, relax, unwind
+            </h1>
+            <h3>Embrace your choices - we do</h3>
+            <a href="products.html" class="hero-btn">
+                show now
+            </a>
+        </div>
+    </section>
+    <!-- featured products -->
+    <section class="section featured">
+        <div class="title">
+            <h2><span>/</span> featured</h2>
+        </div>
+        <div class="featured-center section-center">
+            <!-- single product -->
+            <!-- <article class="product">
+          <div class="product-container">
+            <img src="./images/main-bcg.jpeg" class="product-img img" alt="" />
+           
+            <div class="product-icons">
+              <a href="product.html?id=1" class="product-icon">
+                <i class="fas fa-search"></i>
+              </a>
+              <button class="product-cart-btn product-icon" data-id="1">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+          <footer>
+            <p class="product-name">name</p>
+            <h4 class="product-price">$9.99</h4>
+          </footer>
+        </article> -->
+            <!-- end of single product -->
+        </div>
+    </section>
 </body>
 
 </html>
