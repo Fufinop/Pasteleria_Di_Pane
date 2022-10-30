@@ -9,6 +9,73 @@
 </head>
 
 <body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="nav-center">
+            <!-- links -->
+            <div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html" class="nav-link">
+                            home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#productos" class="nav-link">
+                            productos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pedido.html" class="nav-link">
+                            pedidos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- logo -->
+            <img src="../Imagenes/Di_pane-removebg-preview.png" class="nav-logo" alt="logo" />
+            <!-- cart icon -->
+        </div>
+    </nav>
+    <!-- hero -->
+    <section class="hero">
+        <div class="hero-container">
+            <h1 class="text-slanted">
+                descansar, relajarse, desconectarse
+            </h1>
+            <h3>Acepta tus decisiones - nosotros lo hacemos</h3>
+            <a href="products.html" class="hero-btn">
+                Mostrar productos
+            </a>
+        </div>
+    </section>
+    <h2>Ubicación</h2>
+    <h3>Sucursales</h3>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Ubicación</th>
+            <th>Horarios</th>
+        </tr>
+        <tr>
+            <td>Centro</td>
+            <td><a href="https://goo.gl/maps/tZwujooZhdTwFJPP6">C. Gral. Arteaga 387</a></td>
+            <td>L - D 24H</td>
+        </tr>
+        <tr>
+            <td>Sur</td>
+            <td><a href="https://goo.gl/maps/pxaTLQquqzf9MKRx6">Av. Mariano Barcena s/n, Auditorio</a></td>
+            <td>L - D 5pm - 3am</td>
+        </tr>
+        <tr>
+            <td>Norte</td>
+            <td><a href="https://goo.gl/maps/fUvPQBa1GnQwghoD8">Anillo Perif. Sur Manuel Gómez Morín 7835,<br> Santa
+                    María
+                    Tequepexpan</a></td>
+            <td>M - D 5pm - 3am</td>
+        </tr>
+    </table>
+
     <h1>Bienvenido al area de los pedidos</h1>
     <form action="">
         <p>¿De qué sucursal quieres?</p>
@@ -63,6 +130,10 @@
             <option value="Tropical hoja feliz">Tropical hoja feliz</option>
             <option value="Números de oro">Números de oro</option>
         </select>
+        <br><br>
+
+        <label for="extra">Alguna otra solicitud:</label>
+        <input type="text" name="extra" id="extra">
         <br><br>
 
         <button type="submit">Enviar pedido</button>
