@@ -5,11 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pedido | Di Pane</title>
 </head>
 
 <body>
+    <h1>Bienvenido al area de los pedidos</h1>
+    <form action="">
+        <p>¿De qué sucursal quieres?</p>
+        <select name="" id="">
+            <option value="Norte">Norte</option>
+            <option value="Centro">Centro</option>
+            <option value="Sur">Sur</option>
+        </select>
+        <br><br>
 
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="¿Cómo te llamas?">
+        <br><br>
+
+        <label for="Telefono">Teléfono:</label>
+        <input type="tel" name="Telefono" id="Telefono" placeholder="¿Tu teléfono?">
+        <br><br>
+
+        <label for="Direccion">Dirección:</label>
+        <input type="text" name="Direccion" id="Direccion" placeholder="¿A dónde los mandamos?">
+        <br><br>
+
+        <label for="Correo">Correo electrónico:</label>
+        <input type="text" name="Correo" id="Correo" placeholder="¿Cuál es tu correo electrónico?">
+        <br><br>
+
+
+        <h2>Descripción del pastel</h2>
+        <p>¿De cuál pastel quieres?</p>
+        <select name="" id="">
+            <option value="Doble chocolate">Doble chocolate</option>
+            <option value="Pastel de fresa">Pastel de fresa</option>
+            <option value="Pastel de Moka">Pastel de Moka</option>
+            <option value="Tiramisu">Tiramisu</option>
+            <option value="Pastel Red Velvet">Pastel Red Velvet</option>
+            <option value="Pastel de Zanahoria">Pastel de Zanahoria</option>
+            <option value="Pastel de Tres Leches">Pastel de Tres Leches</option>
+            <option value="Pay de Manzana">Pay de Manzana</option>
+            <option value="Pay de Plátano">Pay de Plátano</option>
+        </select>
+        <br><br>
+        <label for="cantidad">Cuantos:</label>
+        <input type="number" name="cantidad" id="cantidad" min="0" max="5">
+
+        <p>¿Quieres algún adorno?</p>
+        <select name="" id="">
+            <option value="No">No</option>
+            <option value="Happy Birthday Topper">Happy Birthday Topper</option>
+            <option value="Bolas Cake">Bolas Cake</option>
+            <option value="Dispensador de dinero">Dispensador de dinero</option>
+            <option value="Animales de zoológico">Animales de zoológico</option>
+            <option value="Tropical hoja feliz">Tropical hoja feliz</option>
+            <option value="Números de oro">Números de oro</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Enviar pedido</button>
+    </form>
 </body>
 
 </html>
